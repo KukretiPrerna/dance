@@ -1,0 +1,253 @@
+            /* navbar */
+            
+            #navbar {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: auto;
+            }
+            
+            #navbar::before {
+                height: 30vh;
+            }
+            
+            #navbar div {
+                border: 1px solid wheat;
+                height: auto;
+                width: auto;
+                margin: 5px 0px 18px;
+                padding: auto;
+            }
+            
+            #navbar ul {
+                height: 23px;
+                margin: 10px auto 5px;
+                width: auto;
+            }
+            
+            #navbar ul li {
+                padding: 13px;
+            }
+            
+            #navbar ul li a {
+                font-size: 2vw;
+                padding: auto;
+            }
+            /* home */
+            
+            #home {
+                height: 35vh;
+                padding: auto;
+                margin: auto;
+            }
+            
+            #home::before {
+                height: 85vh;
+            }
+            
+            #home button {
+                font-size: 2vw;
+                margin-top: 10px;
+                padding: 2px;
+            }
+            
+            #home p {
+                padding: 0px;
+                margin: 0px 50px;
+            }
+            
+            #home h1 {
+                margin: 120px 15px 5px;
+            }
+            /* about */
+            
+            #about {
+                justify-content: center;
+                align-items: center;
+                margin-top: 140px;
+            }
+            
+            #about p {
+                margin: 10px auto;
+                width: 80vw;
+            }
+            
+            #about h1 {
+                width: 30vw;
+                margin: 80px auto 0px;
+            }
+            
+            #items {
+                flex-direction: column;
+                height: auto;
+                width: auto;
+                margin: 20px 0px 0px;
+            }
+            
+            #items div {
+                width: 85vw;
+                height: 50vh;
+                margin: 0px auto 40px;
+                padding: auto;
+            }
+            
+            #item1 button {
+                width: 13vw;
+                height: 8vh;
+                font-size: 2vw;
+                padding: 0px;
+            }
+            
+            #items div img {
+                width: 20vw;
+                height: 15vh;
+                padding: 0px;
+                margin-bottom: 1vh;
+            }
+            
+            #items div p {
+                font-size: 2vw;
+                padding: 0px;
+                margin-bottom: 5vh;
+                width: 70vw;
+            }
+            
+            #items div h4 {
+                padding: 0px 30px;
+            }
+            /* register */
+            
+            #register {
+                height: 120vh;
+                margin: 35px 0px 70px;
+            }
+            
+            #register::before {
+                height: 120vh;
+            }
+            
+            #register h1 {
+                height: 10vh;
+                margin-bottom: 25px;
+            }
+            
+            #register p {
+                width: auto;
+                height: auto;
+                margin: 0px;
+                margin-bottom: 30px;
+                padding: 0px 15px;
+            }
+            
+            #contact {
+                height: 80vh;
+                width: 60vw;
+            }
+            
+            .form-group {
+                width: 50vw;
+                margin: 20px auto 0px;
+                padding: 0px;
+            }
+            
+            .form-group input {
+                margin: 0px;
+            }
+            
+            .radio {
+                width: 47vw;
+                height: 4vh;
+                padding: 0px;
+                margin-top: 20px;
+            }
+            
+            .radio input {
+                height: 2.3vh;
+                width: 3.3vw;
+            }
+            
+            #choices {
+                height: 4vh;
+                margin: 0px;
+                width: 30vw;
+            }
+            
+            #choices div {
+                width: 14vw;
+                height: 2vh;
+                padding: 0px;
+                margin-bottom: 4vh;
+            }
+            /* faqs */
+            
+            #question {
+                height: 57vh;
+                margin: 0px;
+            }
+            
+            #question h1 {
+                height: auto;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            #question::before {
+                height: 57vh;
+                margin: 0px;
+            }
+            
+            #question div {
+                padding: 0px;
+            }
+            
+            #question div p {
+                margin: 0px auto;
+                padding: 5px 25px;
+                height: auto;
+            }
+            /* footer */
+            
+            .center {
+                font-size: 2vw;
+                width: auto;
+                padding: 10px;
+            }
+            /* utility */
+            
+            img {
+                height: 12vh;
+                width: 12vh;
+                margin-top: 30px;
+            }
+            
+            h6 {
+                font-size: 2vw;
+                padding: 0px 20px;
+            }
+            
+            h4 {
+                font-size: 3vw;
+            }
+            
+            h1 {
+                font-size: 4vw;
+            }
+            
+            p {
+                font-size: 2vw;
+            }
+            
+            .form-group input,
+            label,
+            .btn input {
+                font-size: 2vw;
+            }
+            
+            .btn input {
+                padding: 2px;
+            }
+            
+            .btn {
+                width: 2vw;
+                margin: 5px auto 60px;
+            }
